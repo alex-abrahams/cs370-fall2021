@@ -1,0 +1,10 @@
+%matplotlib inline
+x = np.arange(0, math.pi*2, 0.05)
+vecd = np.vectorize(PowerSin)
+y = vecd(x)
+fig = plt.figure()
+ax=fig.add_axes([0,0,1,1])
+ax.plot(x,y)
+ax.set_title("PowerSin")
+ax.set_xlabel('x')
+ax.set_ylabel('PowerSin(x)')

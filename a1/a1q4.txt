@@ -1,0 +1,8 @@
+4.
+a)
+methods A and B use np.sum on whole sets, which creates a super huge value which will lead to floating point error
+method C does not use this and instead does the subtraction as it's summing them up, making use of less massive values, so there's less floating point error
+method C is most accurate
+
+b)
+any floating point system can instroduce errors when dealing with big enough numbers; as such, it is not a reliable indicator that a crime is being committed.

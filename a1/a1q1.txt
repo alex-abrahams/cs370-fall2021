@@ -1,0 +1,26 @@
+1.
+a) largest value = 0.33333 x 10^10 (base 4)
+
+b)
+0.0323113 x 10^(-1) (base 4)
+in F =
+0.32311 x 10^(-2) (base 4)
+
+c)
+F uses rounding so
+machine epsilon = 0.5*B^(1-m)
+=0.5*4^(1-5)
+=0.5 * 4^(-4)
+=0.2 * 10^(-4) (base 4)
+
+d)
+1 in F = 0.1 * 10^1 (base 4)
+largest value = 0.33333 x 10^10 (base 4)
+= 1047552 in base 10
+smallest value = -0.33333 x 10^10 (base 4)
+= -1047552 in base 10
+
+range = 2095104
+amount < 1 = 1047553
+
+fraction which are smaller than 1 = 1047553/2095104
